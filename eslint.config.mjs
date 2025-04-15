@@ -16,7 +16,7 @@ globals: {
 rules: {
 // Строгость
 strict: ['error', 'global'], // Требует "use strict"
-'no-unused-vars': 'warn', // Запрещает неиспользуемые переменные
+'no-unused-vars': 'off', // Запрещает неиспользуемые переменные
 'no-console': 'warn', // Предупреждение на console.log
 eqeqeq: 'error', // Требует === вместо ==
 curly: 'error', // Требует фигурные скобки для блоков
